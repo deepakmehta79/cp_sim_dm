@@ -1,0 +1,12 @@
+/*********************************************
+ * OPL 6.3 Data
+ * Author: Cemalettin Ozturk
+ * Creation Date: 26.Oca.2012 at 10:11:34
+ *********************************************/
+SheetConnection par("xieSDSTDATA.xls");
+nbJobs from SheetRead (par,"nbJobs");
+nbMachines from SheetRead (par,"nbMachines");
+time from SheetRead (par,"time");
+readytime from SheetRead (par,"ready");
+con from SheetRead (par,"conold");
+sdst from SheetRead (par,"sdst");
